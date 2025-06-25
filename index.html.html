@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            overflow-x: hidden;
+            /* background-image: url(architect.jpg);
+            background-repeat:no-repeat ;
+            background-position-y:65px ; */
+        }
+
+        .header-nav-logo h1 {
+            padding-left: 20px;
+            font-size: large;
+        }
+
+        .main-section {
+            display: flex;
+            position: absolute;
+            margin: 330px 550px;
+            padding-left: 10px;
+            letter-spacing: 3px;
+            font-size: larger;
+        }
+
+        .main-section h1 {
+            color: white;
+            background-color: rgba(17, 16, 16, 0.764);
+            padding: 10px;
+        }
+
+        .main-section h2 {
+            color: white;
+            padding-top: 15px;
+        }
+
+        h1 span {
+            opacity: 60%;
+            font-size: smaller;
+        }
+
+        .header {
+            width: 100vw;
+            position: fixed;
+            height: 9vh;
+            font-size: 15px;
+            border: 1px solid white;
+            background-color: white;
+            box-shadow: 5px 2px 20px white;
+            letter-spacing: 3px;
+        }
+
+        .header nav {
+            display: flex;
+            justify-content: space-between;
+            padding-top: 20px;
+            font-family: sans-serif;
+        }
+
+        .header nav ul {
+            display: flex;
+            list-style-type: none;
+        }
+
+        .header nav ul a {
+            text-decoration: none;
+           margin: 20px;
+          
+            color: black;
+        }
+
+        .header nav ul a:hover {
+            background-color: rgb(196, 200, 203);
+            padding:7px;
+        }
+
+        img {
+            width: 100vw;
+        }
+
+        .main-header-section {
+            display: block;
+            width: 60px;
+            margin: 40px;
+        }
+
+        .h2 {
+            width: 100vw;
+            height: 20vh;
+        }
+
+        .h2 p {
+            padding-top: 80px;
+            padding-left: 30px;
+            font-size: x-large;
+        }
+
+        .image {
+            margin-top: 50px;
+            margin-left: 40px;
+            width: 100vw;
+            height: 70vh;
+        }
+         .img h3{
+            color: white;
+            position: absolute;
+            margin: 10px;
+            padding:10px;
+            font-size: larger;
+            background-color: black;
+         }
+        .img img {
+            width: 300px;
+            height: 200px;
+            padding: 10px;
+        }
+
+        .main-imges1 {
+            width: 100vw;
+            display: flex;
+        }
+
+        .main-imges2 {
+            width: 100vw;
+            display: flex;
+        }
+
+        hr {
+            display: block;
+            margin-left: 40px;
+            width: 93vw;
+        }
+
+        .para p {
+            font-size: larger;
+            padding-top: 30px;
+            padding-left: 20px;
+            width: 100vw;
+            word-spacing: 2px;
+            word-break: keep-all;
+            height: 30vh;
+        }
+
+        .main-people {
+            width: 100vw;
+            height:70vh;
+            display: flex;
+        }
+
+        .main-people-info {
+            width: 300px;
+            height: 450px;
+            margin-left: 25px;
+
+        }
+        .main-people-info img {
+            width: 300px;
+            height: 200px;
+        }
+        .main-people-info h1,h4,p,button{
+            margin-top: 20px;
+        }
+        .main-people-info p{
+            font-size: large;
+        }
+        button{
+            width: 300px;
+            height: 40px;
+            font-size: large;
+            border: none;
+        }
+        button:hover{
+            color: white;
+            background-color: rgb(167, 167, 167);
+        }
+
+    .people-contact{
+        width: 100vw;
+        height: 60vh;
+        margin-top: 30px;
+        margin-left: 30px;
+        font-size: x-large;
+    }
+    .people-contact input{
+        width: 90vw;
+        height: 6vh;
+        margin-top: 15px;
+        padding-left: 10px;
+        font-size: 15px;
+    }
+    .people-contact button{
+        color: white;
+        background-color: black;
+        font-size: large;
+        width: 150px;
+    }
+    .people-contact button:hover{
+        color: black;
+        background-color: rgba(252, 252, 252, 0.845);
+    }
+    .last img{
+        width: 95vw;
+        margin-left: 20px;
+    }
+    .power{
+        width: 100vw;
+        background-color: black;
+        color: white;
+        font-size: larger;
+        height: 15vh;
+        text-align: center;
+        padding-top: 30px;
+    }
+    .power a{
+        color: white;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <nav>
+            <div class="header-nav-logo">
+                <h1>BR <span>Architect</span></h1>
+            </div>
+            <ul>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="main-section">
+        <h1>BR</h1>
+        <h2>Architects</h2>
+    </div>
+    <img src="architect.jpg" alt="">
+    <div class="h2">
+        <p>Projects</p>
+    </div>
+    <hr>
+    <div class="image">
+        <div class="main-imges1">
+            <div class="img">
+                <h3>Brick House</h3>
+                <img src="house2.jpg" alt="">
+            </div>
+            <div class="img">
+                <h3>Renovated</h3>
+                <img src="house3.jpg" alt="">
+            </div>
+            <div class="img">
+                <h3>Barn House</h3>
+                <img src="house4.jpg" alt="">
+            </div>
+            <div class="img">
+                <h3>Summer House</h3>
+                <img src="house5.jpg" alt="">
+            </div>
+        </div>
+        <div class="main-imges2">
+            <div class="img">
+                <h3>Barn House</h3>
+                <img src="house4.jpg" alt="">
+            </div>
+            <div class="img">
+                <h3>Summer House</h3>
+                <img src="house5.jpg" alt="">
+            </div>
+            <div class="img">
+                <h3>Renovated</h3>
+                <img src="house3.jpg" alt="">
+            </div>
+            <div class="img">
+                <h3>Brick House</h3>
+                <img src="house2.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="h2">
+        <p id="about">About</p>
+    </div>
+    <hr>
+    <div class="para">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat.</p>
+    </div>
+
+    <div class="main-people">
+        <div class="main-people-info">
+            <img src="team1.jpg" alt="">
+            <h1>Jane Doe</h1>
+            <h4>Architect</h4>
+            <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+            <button>contact</button>
+        </div>
+        <div class="main-people-info">
+            <img src="team2.jpg" alt="">
+            <h1>John Doe</h1>
+            <h4>Architect</h4>
+            <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+            <button>contact</button>
+        </div>
+        <div class="main-people-info">
+            <img src="team3.jpg" alt="">
+            <h1>Mike Ross</h1>
+            <h4>Architect</h4>
+            <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+            <button>contact</button>
+        </div>
+        <div class="main-people-info">
+            <img src="team4.jpg" alt="">
+            <h1>Dan Star</h1>
+            <h4>Architect</h4>
+            <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+            <button>contact</button>
+        </div>
+    </div>
+    <div class="h2">
+        <p>Contact</p>
+    </div>
+    <hr>
+<div class="people-contact">
+<p>Lets get in touch and talk about your next project</p>
+<input type="text" placeholder="Name"><br>
+<input type="email" name="Email" placeholder="Email"><br>
+<input type="text" placeholder="Subject"><br>
+<input type="text"  placeholder="Comment">
+<button>Send Message</button>
+</div>
+<div class="last">
+    <img src="Image 2025-02-23 at 11.16.00_910872c3.jpg" alt=""class="last">
+</div>
+<div class="power">
+    <p>power By<a href="#">Ramzan</a></p>
+</div>
+</body>
+</html>
